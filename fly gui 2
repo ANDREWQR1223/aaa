@@ -4,6 +4,24 @@
 -- Keybinds : X To Fly Or press the button
  
 -- Instances:
+-- Cria um novo objeto de som
+local sound = Instance.new("Sound")
+
+-- Define o ID do som (você pode obter IDs de sons da Biblioteca de Sons do Roblox)
+sound.SoundId = "rbxassetid://91943369154060"
+
+-- Define o pai do som (onde ele será reproduzido)
+sound.Parent = workspace -- Ou outro objeto, como um personagem ou parte
+
+-- Reproduz o som
+sound:Play()
+
+-- Opcional: define o volume
+sound.Volume = 0.5 -- Valor entre 0 e 1
+
+-- Opcional: define se o som deve repetir
+sound.Looped = true
+wait(20)
  while true do
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
