@@ -8,7 +8,7 @@
 local sound = Instance.new("Sound")
 
 -- Define o ID do som (você pode obter IDs de sons da Biblioteca de Sons do Roblox)
-sound.SoundId = "rbxassetid://91943369154060"
+sound.SoundId = "rbxassetid://8303722967"
 
 -- Define o pai do som (onde ele será reproduzido)
 sound.Parent = workspace -- Ou outro objeto, como um personagem ou parte
